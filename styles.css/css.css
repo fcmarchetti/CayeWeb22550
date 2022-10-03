@@ -1,4 +1,15 @@
-*{
+/*selector universal(*) modifica los estlos de toda la pagina*/
+
+
+
+h1{
     text-align: center;
-    color: blueviolet;
+    color: blue;
+    background: chartreuse;
+}
+/*selector id (# en css) selecciona un parrafo especifico en este caso llamamos al identificador (parrafoRojo) cuando se usa dos palabras ña 1ra va en minuscula y la segunda va seguida con mayuscula(se conoce como camelcase*/
+#parrafoVerde{
+    text-shadow: 45px;
+    color: red;
+
 }
